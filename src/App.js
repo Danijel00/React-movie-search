@@ -4,7 +4,7 @@ import searchIcon from './image/search.svg';
 import popcorn from './image/popcorn.png';
 import MovieCard from './MovieCard';
 
-const API_URL = 'http://www.omdbapi.com?apikey=e50ad83e';
+const API_URL = 'https://www.omdbapi.com?apikey=e50ad83e';
 
 // const movie = {
 //     "Title": "Spider-Man",
