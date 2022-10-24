@@ -1,0 +1,61 @@
+.movie {
+  width: 19.375rem;
+  height: 28.75rem;
+  margin: 1.5rem;
+  position: relative;
+  border-radius: 0.75rem;
+  overflow: hidden;
+  border: none;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0, 1);
+  box-shadow: 0px 13px 10px -7px rgba(0, 0, 0, 0.1);
+
+  &:hover {
+    box-shadow: 0px 30px 18px -8px rgba(0, 0, 0, 0.1);
+    transform: scale(1.05, 1.05);
+  }
+
+  &__year {
+    position: absolute;
+    padding: 1rem;
+    width: 100%;
+    opacity: 0;
+    top: 0;
+    color: #f9d3b4;
+    background-color: rgba(52, 55, 57, 0.8);
+    transition: all 300ms ease;
+  }
+
+  &:hover &__year {
+    opacity: 1;
+  }
+
+  &__poster {
+    height: 100%;
+    width: 100%;
+
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+
+    &-title {
+      display: flex;
+      flex-direction: column;
+      padding: 0.5rem;
+      background-color: #343739;
+      color: #f9d3b4;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      opacity: 0;
+      z-index: 2;
+      transition: all 300ms ease;
+    }
+
+    &:hover &-title {
+      opacity: 1;
+    }
+  }
+}
