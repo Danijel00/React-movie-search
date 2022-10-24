@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/React-movie-search/static/css/main.bbd1770f.css",
+    "main.js": "/React-movie-search/static/js/main.00e575a4.js",
+    "index.html": "/React-movie-search/index.html",
+    "static/media/search.svg": "/React-movie-search/static/media/search.b416605642fcb3f2447edc96c1a80e05.svg",
+    "main.bbd1770f.css.map": "/React-movie-search/static/css/main.bbd1770f.css.map",
+    "main.00e575a4.js.map": "/React-movie-search/static/js/main.00e575a4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bbd1770f.css",
+    "static/js/main.00e575a4.js"
+  ]
+}
